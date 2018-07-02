@@ -34,7 +34,7 @@ def main():
     retangulos.append(item(3,5,2,50,0,2))
 
     # for i in range(1,21):
-          # TODO: ler arquivo e pegar x,y,valor, min max
+          # TODO: ler arquivo e pegar x,y,valor, min max só copiar os  dados da tabela do artigo
     #     retangulos.append(item(x,y,valor,min, max)) valores na tabela
 
     # TODO:  ordenar por valor decrescente, do maior pro menor
