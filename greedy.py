@@ -31,7 +31,7 @@ def main():
 
     retangulos.append(item(1,3,5,65,0,2))
     retangulos.append(item(2,2,3,60,0,2))
-    retangulos.append(item(3,5,2,50,0,2))
+    retangulos.append(item(3,5,2,50,0,2)) # alterar os parametros 2 e 3 para ver que funciona +-
 
     # for i in range(1,21):
           # TODO: ler arquivo e pegar x,y,valor, min max só copiar os  dados da tabela do artigo
@@ -48,14 +48,14 @@ def main():
             retOrdenados[i].qtd = retOrdenados[i].qtd + 1
             retanguloGrande.area = retanguloGrande.area - retOrdenados[i].area
             selecionados.append(retOrdenados[i])
-            i = 0
+            #i = 0
         else:
             i = i +1
 
 
 
     for i in selecionados:
-        print(i.tipo, i.qtd)
+        print("Tipo: %d Quantidade: %d"%(i.tipo, i.qtd)) # insere repetido na lista msm...
         funcObjetivo = funcObjetivo + (i.valor)
     print("Valor da funcção objetivo:")
     print(funcObjetivo)
