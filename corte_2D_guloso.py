@@ -2,11 +2,7 @@
 import pandas as pd
 import time
 import timeit
-"""
-Acho que isso vai funcionar pelo menos vai ser um gulosão...
-Tipo se eu tenho uma chapa de 50 x 10 = 500 , então cabem no max 500 unidades de área,
-como cada retangulinho tem uma área tem como "aproximar" ....
-"""
+
 
 class item:
     def __init__(self, tipo,x, y,valor=0,min=0,max=0):
